@@ -31,6 +31,15 @@ This is a [Redis](https://redis.io) with [RabbitMQ](https://www.rabbitmq.com).
       atau
       sudo docker container ls -a
 
+- jalankanlah container yang Exited setelah laptop/pc/vps Restart
+
+      docker start CONTAINER ID (sesuaikan dengan container id yang ada di device kalian)
+      docker start 609a049e2293
+      atau
+      docker start NAMES (sesuaikan dengan nama container yang ada di device kalian)
+      docker start redis
+
+
 - stop
 
       docker stop redis
@@ -73,6 +82,14 @@ This is a [Redis](https://redis.io) with [RabbitMQ](https://www.rabbitmq.com).
       docker container ls -a
       atau
       sudo docker container ls -a
+
+- jalankanlah container yang Exited setelah laptop/pc/vps Restart
+
+      docker start CONTAINER ID (sesuaikan dengan container id yang ada di device kalian)
+      docker start 4f845f79aab9
+      atau
+      docker start NAMES (sesuaikan dengan nama container yang ada di device kalian)
+      docker start rabbitmq
 
 - stop
 
